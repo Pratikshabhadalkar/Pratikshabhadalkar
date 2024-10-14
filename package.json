@@ -1,17 +1,22 @@
 {
-  "name": "wether-app",
+  "name": "express-task-list",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "pratiksha bhadalkar",
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "body-parser": "^1.20.3",
-    "express": "^4.21.1"
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.15.0"
   }
 }
