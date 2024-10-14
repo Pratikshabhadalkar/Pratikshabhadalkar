@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            margin-top: 50px;
+            background-image: url('https://img.freepik.com/free-vector/deep-sea-background_53876-93502.jpg?w=740&t=st=1728840620~exp=1728841220~hmac=bbb70f178a3df6d8da39b14d169997d42e77803a62eaeaa4b414abc7f0ba212d');
+        }
+
+        
+        form {
+            display: inline-block;    /* Inline block display */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.9);  /* Semi-transparent background */
+            text-align: center;       /* Center the content inside the form */
+        }
+        label {
+            font-size: 1.2em;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="post">
+        <label for="CityInput">City Name:</label>
+        <input type="text" name="cityName" id="CityInput">
+        <button type ="submit" > Go </button>
+    </form>
+</body>
+</html>
